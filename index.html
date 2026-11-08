@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Artisan Roast — Slow Crafted Specialty Coffee &amp; Micro Bakery</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-primary-fixed-variant": "#574335",
+            "surface-container-low": "#f5f3ef",
+            "secondary-fixed-dim": "#b9ccac",
+            "inverse-on-surface": "#f2f0ed",
+            "on-error": "#ffffff",
+            "secondary-container": "#d5e9c7",
+            "surface-container": "#efeeea",
+            "primary-fixed": "#fbddca",
+            "inverse-primary": "#dec1af",
+            "tertiary-fixed-dim": "#cec5bc",
+            "secondary-fixed": "#d5e9c7",
+            "primary-fixed-dim": "#dec1af",
+            "on-surface-variant": "#4f453f",
+            "on-primary": "#ffffff",
+            "surface-bright": "#fbf9f5",
+            "background": "#fbf9f5",
+            "error-container": "#ffdad6",
+            "on-secondary": "#ffffff",
+            "surface-tint": "#705a4c",
+            "primary-container": "#3d2b1f",
+            "on-background": "#1b1c1a",
+            "surface-container-lowest": "#ffffff",
+            "on-tertiary-container": "#9d958c",
+            "error": "#ba1a1a",
+            "on-surface": "#1b1c1a",
+            "on-secondary-container": "#58694e",
+            "on-secondary-fixed-variant": "#3b4b32",
+            "inverse-surface": "#30312e",
+            "surface": "#fbf9f5",
+            "tertiary-fixed": "#eae1d7",
+            "surface-variant": "#e4e2de",
+            "surface-dim": "#dbdad6",
+            "outline": "#81756e",
+            "on-secondary-fixed": "#111f0a",
+            "surface-container-highest": "#e4e2de",
+            "on-primary-fixed": "#28180d",
+            "on-error-container": "#93000a",
+            "outline-variant": "#d2c4bc",
+            "surface-container-high": "#eae8e4",
+            "primary": "#26170c",
+            "secondary": "#526349",
+            "on-tertiary-fixed": "#1f1b15",
+            "on-primary-container": "#ac9181",
+            "tertiary": "#1d1a14",
+            "on-tertiary-fixed-variant": "#4b463f",
+            "on-tertiary": "#ffffff",
+            "tertiary-container": "#332e28"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "2xl": "1rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "gutter": "1.5rem",
+            "margin": "3rem",
+            "space-2xl": "4rem",
+            "space-lg": "1.5rem",
+            "gutter-mobile": "1rem",
+            "space-md": "1rem",
+            "space-sm": "0.5rem",
+            "space-xl": "2.5rem",
+            "space-xs": "0.25rem",
+            "margin-mobile": "1.25rem"
+          },
+          "fontFamily": {
+            "headline-md": ["Playfair Display"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "label-md": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "title-lg": ["Plus Jakarta Sans"],
+            "headline-lg": ["Playfair Display"],
+            "title-md": ["Plus Jakarta Sans"],
+            "display-lg": ["Playfair Display"],
+            "body-md": ["Plus Jakarta Sans"],
+            "label-lg": ["Plus Jakarta Sans"],
+            "display-lg-mobile": ["Playfair Display"],
+            "label-sm": ["Plus Jakarta Sans"],
+            "headline-sm": ["Playfair Display"],
+            "headline-lg-mobile": ["Playfair Display"]
+          },
+          "fontSize": {
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.03em", "fontWeight": "600" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+            "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "title-md": ["17px", { "lineHeight": "24px", "fontWeight": "600" }],
+            "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+            "display-lg-mobile": ["38px", { "lineHeight": "46px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "500" }],
+            "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "500" }],
+            "headline-lg-mobile": ["30px", { "lineHeight": "38px", "fontWeight": "600" }]
+          }
+        },
+      },
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      height: 4px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background-color: #d2c4bc;
+      border-radius: 9999px;
+    }
+    button, a, select, input[type="submit"], input[type="button"] {
+      cursor: pointer;
+    }
+    @keyframes pulseGlow {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .animate-badge {
+      animation: pulseGlow 1.5s infinite;
+    }
+  </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md antialiased selection:bg-secondary-container selection:text-on-secondary-fixed">
+
+  <!-- Toast Container -->
+  <div id="toast-container" class="fixed top-20 right-6 z-[100] flex flex-col gap-2 pointer-events-none"></div>
+
+  <!-- 1. TopNavBar -->
+  <header class="sticky top-0 w-full z-40 bg-surface/85 dark:bg-surface-container/85 backdrop-blur-md border-b border-outline-variant/30 dark:border-outline-variant/20 shadow-sm transition-all duration-200 ease-in-out">
+    <div class="flex justify-between items-center max-w-7xl mx-auto px-6 py-4">
+      <!-- Brand Logo / Emblem -->
+      <a class="flex items-center gap-2.5 text-headline-md font-headline-md font-semibold text-primary dark:text-primary-fixed tracking-tight" href="#home">
+        <span class="w-9 h-9 rounded-full bg-primary-container text-surface flex items-center justify-center shadow-inner">
+          <span class="material-symbols-outlined text-xl" data-icon="coffee" style="font-variation-settings: 'FILL' 1;">coffee</span>
+        </span>
+        <span>Artisan Roast</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden md:flex items-center gap-8">
+        <a class="text-primary dark:text-primary-fixed font-semibold border-b-2 border-primary dark:border-primary-fixed pb-1 text-label-md font-label-md transition-colors duration-200" href="#home">Home</a>
+        <a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200 text-label-md font-label-md" href="#menu">Menu</a>
+        <a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200 text-label-md font-label-md" href="#about">About</a>
+        <a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200 text-label-md font-label-md" href="#gallery">Gallery</a>
+        <a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200 text-label-md font-label-md" href="#contact">Contact</a>
+      </nav>
+
+      <!-- Trailing Action Buttons -->
+      <div class="flex items-center gap-3">
+        <!-- Cart Action Button -->
+        <button id="cart-btn" onclick="openCart()" class="relative p-2.5 rounded-full bg-surface-container-low hover:bg-surface-container text-primary border border-outline-variant/40 transition-transform active:scale-95 shadow-xs flex items-center justify-center" title="View Order Cart">
+          <span class="material-symbols-outlined text-xl">local_mall</span>
+          <span id="cart-badge-nav" class="cart-badge absolute -top-1.5 -right-1.5 bg-secondary text-surface text-[11px] font-bold rounded-full w-5 h-5 flex items-center justify-center hidden shadow-sm animate-badge">0</span>
+        </button>
+
+        <!-- Reserve Table Action Button -->
+        <button onclick="scrollToReservation()" class="inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-primary-container text-surface text-label-md font-label-md hover:bg-primary shadow-sm hover:shadow transition-all duration-200 ease-in-out active:scale-95">
+          Reserve a Table
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button onclick="toggleMobileMenu()" class="md:hidden p-2 rounded-full hover:bg-surface-container text-primary transition-colors">
+          <span id="mobile-menu-icon" class="material-symbols-outlined text-2xl">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Nav -->
+    <div id="mobile-nav" class="hidden md:hidden px-6 pt-2 pb-6 border-t border-outline-variant/20 bg-surface flex flex-col gap-3">
+      <a onclick="toggleMobileMenu()" class="text-primary font-semibold py-2 text-label-lg" href="#home">Home</a>
+      <a onclick="toggleMobileMenu()" class="text-on-surface-variant hover:text-primary py-2 text-label-lg" href="#menu">Menu</a>
+      <a onclick="toggleMobileMenu()" class="text-on-surface-variant hover:text-primary py-2 text-label-lg" href="#about">About</a>
+      <a onclick="toggleMobileMenu()" class="text-on-surface-variant hover:text-primary py-2 text-label-lg" href="#gallery">Gallery</a>
+      <a onclick="toggleMobileMenu()" class="text-on-surface-variant hover:text-primary py-2 text-label-lg" href="#contact">Contact</a>
+      <button onclick="toggleMobileMenu(); scrollToReservation();" class="w-full mt-2 py-3 rounded-full bg-primary-container text-surface text-center font-semibold">
+        Reserve a Table
+      </button>
+    </div>
+  </header>
+
+  <!-- 2. Hero Section -->
+  <section class="relative min-h-[870px] flex items-center bg-surface-container-low overflow-hidden border-b border-outline-variant/30" id="home">
+    <!-- Subtle Background Graphic Elements -->
+    <div class="absolute inset-0 z-0 opacity-15 pointer-events-none mix-blend-multiply" style="background-image: radial-gradient(#3d2b1f 0.75px, transparent 0.75px); background-size: 24px 24px;"></div>
+    <div class="max-w-7xl mx-auto px-6 py-16 lg:py-24 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-7 space-y-6">
+        <!-- Trust badge / Opening hours pill -->
+        <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm border border-outline-variant/40 shadow-xs">
+          <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+          <span>Open Daily: 7:00 AM – 9:00 PM • Specialty Single Origin</span>
+        </div>
+        <h1 class="text-display-lg font-display-lg text-primary tracking-tight">
+          Freshly Brewed Moments
+        </h1>
+        <p class="text-body-lg font-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+          Step into a quiet ritual of slow-crafted specialty roasts, oven-warm morning brioche, and sunlit timber tables. An intentional haven to pause, converse, and unwind.
+        </p>
+        <!-- CTA Action Cluster -->
+        <div class="flex flex-wrap items-center gap-4 pt-4">
+          <button onclick="scrollToMenu()" class="px-8 py-3.5 rounded-full bg-primary-container text-surface text-label-lg font-label-lg hover:bg-primary transition-all duration-200 shadow-md hover:-translate-y-0.5 active:scale-95 inline-flex items-center gap-2">
+            <span>View Menu</span>
+            <span class="material-symbols-outlined text-base" data-icon="restaurant_menu">restaurant_menu</span>
+          </button>
+          <button onclick="orderNowAction()" class="px-8 py-3.5 rounded-full bg-surface-container-lowest text-primary border border-outline-variant text-label-lg font-label-lg hover:bg-surface-container transition-all duration-200 inline-flex items-center gap-2 shadow-xs active:scale-95">
+            <span>Order Now</span>
+            <span class="material-symbols-outlined text-base" data-icon="local_mall">local_mall</span>
+          </button>
+        </div>
+        <!-- Micro Feature Badges -->
+        <div class="pt-6 border-t border-outline-variant/40 grid grid-cols-3 gap-4 max-w-lg">
+          <div>
+            <div class="text-title-lg font-title-lg text-primary">88+</div>
+            <div class="text-label-sm font-label-sm text-on-surface-variant">SCA Cupping Score</div>
+          </div>
+          <div>
+            <div class="text-title-lg font-title-lg text-primary">100%</div>
+            <div class="text-label-sm font-label-sm text-on-surface-variant">Arabica Direct Trade</div>
+          </div>
+          <div>
+            <div class="text-title-lg font-title-lg text-primary">36h</div>
+            <div class="text-label-sm font-label-sm text-on-surface-variant">Sourdough Ferment</div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Imagery / Warm Visual Focal Point -->
+      <div class="lg:col-span-5 relative">
+        <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-outline-variant/30 bg-surface-container aspect-[4/5]">
+          <img class="w-full h-full object-cover" data-alt="Artisanal pour over specialty coffee brewing in warm cafe with soft amber lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQb_bVv7z26l9s_8_E9fL54k9dZ7aIq5K0eU9n3j3T8vA5rV5K0eU9n3j3T8vA5rV5K0eU9n3j3T8vA5rV5K0eU9n3j3T8vA5rV5K0eU9n3j3T8vA5rV5K0eU9n3j3T8vA5rV5K0eU9n3j3T8vA5rV5K0eU9n3j3T8vA5rV5K0eU9n3j3T8vA5r" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80';"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>
+          <div class="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-surface-container-lowest/90 backdrop-blur-md border border-outline-variant/40 flex items-center justify-between">
+            <div>
+              <div class="text-title-md font-title-md text-primary">Daily Harvest Roast</div>
+              <div class="text-body-sm font-body-sm text-secondary">Colombia Geisha • Honey Process</div>
+            </div>
+            <button onclick="addToCart('Colombia Geisha Roast', 5.50, 'Single Origin')" class="p-2.5 rounded-full bg-primary-container text-surface hover:bg-primary transition-all active:scale-90" title="Order Geisha">
+              <span class="material-symbols-outlined text-lg">add</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Featured Specialties Section -->
+  <section class="py-24 max-w-7xl mx-auto px-6">
+    <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+      <div class="inline-block px-3 py-1 rounded-full bg-secondary-container/40 text-on-secondary-container text-label-sm font-label-sm border border-secondary/20">
+        Handcrafted Daily
+      </div>
+      <h2 class="text-headline-lg font-headline-lg text-primary">Featured Specialties</h2>
+      <p class="text-body-md font-body-md text-on-surface-variant">
+        Carefully calibrated roasts and small-batch micro-bakery creations prepared with pure organic ingredients every sunrise.
+      </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Card 1: Coffee -->
+      <div class="group bg-surface-container-lowest rounded-2xl border border-outline-variant/40 overflow-hidden shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col justify-between p-4">
+        <div>
+          <div class="relative aspect-square rounded-xl overflow-hidden bg-surface-container mb-4">
+            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artisanal Pour-Over" src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80"/>
+            <span class="absolute top-3 left-3 bg-secondary-container text-on-secondary-container text-label-sm font-label-sm px-2.5 py-0.5 rounded-full border border-secondary/20">
+              Single Origin
+            </span>
+          </div>
+          <div class="flex justify-between items-baseline mb-2">
+            <h3 class="text-title-lg font-title-lg text-primary">Artisanal Pour-Over</h3>
+            <span class="text-title-lg font-title-lg text-primary font-semibold">$4.75</span>
+          </div>
+          <p class="text-body-sm font-body-sm text-on-surface-variant mb-4">
+            V60 slow drip featuring Colombia Geisha beans. Bright notes of jasmine blossom, candied orange peel, and raw honey.
+          </p>
+        </div>
+        <div class="pt-3 border-t border-outline-variant/30 flex items-center justify-between">
+          <span class="text-label-sm font-label-sm text-outline">Hot / Iced Available</span>
+          <button onclick="addToCart('Artisanal Pour-Over', 4.75, 'Single Origin')" title="Add to Order" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-primary-container hover:text-surface text-primary transition-all active:scale-90 flex items-center justify-center cursor-pointer shadow-xs">
+            <span class="material-symbols-outlined text-lg" data-icon="add">add</span>
+          </button>
+        </div>
+      </div>
+      <!-- Card 2: Bakery -->
+      <div class="group bg-surface-container-lowest rounded-2xl border border-outline-variant/40 overflow-hidden shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col justify-between p-4">
+        <div>
+          <div class="relative aspect-square rounded-xl overflow-hidden bg-surface-container mb-4">
+            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Basque Burnt Cheesecake" src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80"/>
+            <span class="absolute top-3 left-3 bg-tertiary-fixed text-on-tertiary-fixed text-label-sm font-label-sm px-2.5 py-0.5 rounded-full border border-outline-variant/40">
+              Hearth Baked
+            </span>
+          </div>
+          <div class="flex justify-between items-baseline mb-2">
+            <h3 class="text-title-lg font-title-lg text-primary">Basque Burnt Cheesecake</h3>
+            <span class="text-title-lg font-title-lg text-primary font-semibold">$6.50</span>
+          </div>
+          <p class="text-body-sm font-body-sm text-on-surface-variant mb-4">
+            Caramelized golden crust with an ultra-creamy, molten core infused with natural Madagascar vanilla beans.
+          </p>
+        </div>
+        <div class="pt-3 border-t border-outline-variant/30 flex items-center justify-between">
+          <span class="text-label-sm font-label-sm text-outline">Signature Recipe</span>
+          <button onclick="addToCart('Basque Burnt Cheesecake', 6.50, 'Hearth Baked')" title="Add to Order" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-primary-container hover:text-surface text-primary transition-all active:scale-90 flex items-center justify-center cursor-pointer shadow-xs">
+            <span class="material-symbols-outlined text-lg" data-icon="add">add</span>
+          </button>
+        </div>
+      </div>
+      <!-- Card 3: Sandwich -->
+      <div class="group bg-surface-container-lowest rounded-2xl border border-outline-variant/40 overflow-hidden shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col justify-between p-4">
+        <div>
+          <div class="relative aspect-square rounded-xl overflow-hidden bg-surface-container mb-4">
+            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Truffle & Provolone Focaccia" src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"/>
+            <span class="absolute top-3 left-3 bg-secondary-container text-on-secondary-container text-label-sm font-label-sm px-2.5 py-0.5 rounded-full border border-secondary/20">
+              Warm Savory
+            </span>
+          </div>
+          <div class="flex justify-between items-baseline mb-2">
+            <h3 class="text-title-lg font-title-lg text-primary">Truffle &amp; Provolone Focaccia</h3>
+            <span class="text-title-lg font-title-lg text-primary font-semibold">$9.50</span>
+          </div>
+          <p class="text-body-sm font-body-sm text-on-surface-variant mb-4">
+            House rosemary olive oil focaccia, forest mushrooms, aged provolone, and white truffle emulsion.
+          </p>
+        </div>
+        <div class="pt-3 border-t border-outline-variant/30 flex items-center justify-between">
+          <span class="text-label-sm font-label-sm text-outline">Made to Order</span>
+          <button onclick="addToCart('Truffle & Provolone Focaccia', 9.50, 'Warm Savory')" title="Add to Order" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-primary-container hover:text-surface text-primary transition-all active:scale-90 flex items-center justify-center cursor-pointer shadow-xs">
+            <span class="material-symbols-outlined text-lg" data-icon="add">add</span>
+          </button>
+        </div>
+      </div>
+      <!-- Card 4: Dessert -->
+      <div class="group bg-surface-container-lowest rounded-2xl border border-outline-variant/40 overflow-hidden shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col justify-between p-4">
+        <div>
+          <div class="relative aspect-square rounded-xl overflow-hidden bg-surface-container mb-4">
+            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Pistachio & Raspberry Tart" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"/>
+            <span class="absolute top-3 left-3 bg-tertiary-fixed text-on-tertiary-fixed text-label-sm font-label-sm px-2.5 py-0.5 rounded-full border border-outline-variant/40">
+              Seasonal
+            </span>
+          </div>
+          <div class="flex justify-between items-baseline mb-2">
+            <h3 class="text-title-lg font-title-lg text-primary">Pistachio &amp; Raspberry Tart</h3>
+            <span class="text-title-lg font-title-lg text-primary font-semibold">$7.00</span>
+          </div>
+          <p class="text-body-sm font-body-sm text-on-surface-variant mb-4">
+            Crisp butter sablé shell layered with Sicilian pistachio frangipane and fresh hand-picked tart raspberries.
+          </p>
+        </div>
+        <div class="pt-3 border-t border-outline-variant/30 flex items-center justify-between">
+          <span class="text-label-sm font-label-sm text-outline">Vegetarian</span>
+          <button onclick="addToCart('Pistachio & Raspberry Tart', 7.00, 'Seasonal Dessert')" title="Add to Order" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-primary-container hover:text-surface text-primary transition-all active:scale-90 flex items-center justify-center cursor-pointer shadow-xs">
+            <span class="material-symbols-outlined text-lg" data-icon="add">add</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. About Us Section -->
+  <section class="py-24 bg-surface-container-low border-y border-outline-variant/30" id="about">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        <!-- Left: Multi-photo Montage -->
+        <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+          <div class="space-y-4">
+            <div class="rounded-2xl overflow-hidden shadow-sm aspect-[4/5] border border-outline-variant/40">
+              <img class="w-full h-full object-cover" data-alt="Expert barista pouring microfoam latte art" src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=80"/>
+            </div>
+            <div class="rounded-2xl overflow-hidden shadow-sm aspect-square border border-outline-variant/40">
+              <img class="w-full h-full object-cover" data-alt="Artisanal roasting process" src="https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?auto=format&fit=crop&w=600&q=80"/>
+            </div>
+          </div>
+          <div class="space-y-4 pt-8">
+            <div class="rounded-2xl overflow-hidden shadow-sm aspect-square border border-outline-variant/40">
+              <img class="w-full h-full object-cover" data-alt="Fresh sourdough croissants" src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"/>
+            </div>
+            <div class="rounded-2xl overflow-hidden shadow-sm aspect-[4/5] border border-outline-variant/40">
+              <img class="w-full h-full object-cover" data-alt="Cozy aesthetic cafe interior" src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80"/>
+            </div>
+          </div>
+        </div>
+        <!-- Right: Narrative -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-secondary-container/50 text-secondary text-label-sm font-label-sm border border-secondary/20">
+            <span class="material-symbols-outlined text-sm" data-icon="spa" style="font-variation-settings: 'FILL' 1;">spa</span>
+            <span>Our Philosophy</span>
+          </div>
+          <h2 class="text-headline-lg font-headline-lg text-primary tracking-tight">
+            Crafted with Intention, Poured with Love
+          </h2>
+          <p class="text-body-lg font-body-lg text-on-surface-variant leading-relaxed">
+            Founded on the quiet philosophy of slow living, Artisan Roast was envisioned as an unhurried neighborhood sanctuary. We reject hurried commercial cycles in favor of small-batch stewardship, direct grower partnerships, and slow-fermentation hearth baking.
+          </p>
+          <p class="text-body-md font-body-md text-on-surface-variant leading-relaxed">
+            Every green bean lot is chosen with strict traceability back to single micro-farms in Huila, Yirgacheffe, and Antigua. We roast lightly on vintage cast-iron drums to protect the subtle florals, stone fruits, and natural terroir.
+          </p>
+          <!-- Milestone Badges -->
+          <div class="pt-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="p-4 rounded-xl bg-surface-container-lowest border border-outline-variant/40">
+              <span class="material-symbols-outlined text-secondary text-2xl mb-2" data-icon="eco">eco</span>
+              <div class="text-title-md font-title-md text-primary">100% Organic</div>
+              <div class="text-body-sm font-body-sm text-on-surface-variant">Fair trade sourced</div>
+            </div>
+            <div class="p-4 rounded-xl bg-surface-container-lowest border border-outline-variant/40">
+              <span class="material-symbols-outlined text-secondary text-2xl mb-2" data-icon="bakery_dining">bakery_dining</span>
+              <div class="text-title-md font-title-md text-primary">Micro Bakery</div>
+              <div class="text-body-sm font-body-sm text-on-surface-variant">Fermented 36 hours</div>
+            </div>
+            <div class="p-4 rounded-xl bg-surface-container-lowest border border-outline-variant/40">
+              <span class="material-symbols-outlined text-secondary text-2xl mb-2" data-icon="laptop_chromebook">laptop_chromebook</span>
+              <div class="text-title-md font-title-md text-primary">Quiet Spaces</div>
+              <div class="text-body-sm font-body-sm text-on-surface-variant">Lofi sound &amp; fast Wi-Fi</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Menu Highlights Section with Interactive Tabs & Ordering -->
+  <section class="py-24 max-w-7xl mx-auto px-6" id="menu">
+    <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
+      <div>
+        <span class="text-label-md font-label-md text-secondary tracking-widest uppercase">The Daily Selection</span>
+        <h2 class="text-headline-lg font-headline-lg text-primary mt-1">Menu Highlights</h2>
+      </div>
+      <!-- Tab Navigation -->
+      <div class="flex p-1.5 bg-surface-container rounded-full border border-outline-variant/40">
+        <button class="menu-tab px-5 py-2 rounded-full bg-primary-container text-surface text-label-md font-label-md transition-all shadow-xs cursor-pointer" onclick="switchTab('coffee', this)">
+          Coffee
+        </button>
+        <button class="menu-tab px-5 py-2 rounded-full text-on-surface-variant hover:text-primary text-label-md font-label-md transition-all cursor-pointer" onclick="switchTab('tea', this)">
+          Tea
+        </button>
+        <button class="menu-tab px-5 py-2 rounded-full text-on-surface-variant hover:text-primary text-label-md font-label-md transition-all cursor-pointer" onclick="switchTab('snacks', this)">
+          Snacks
+        </button>
+        <button class="menu-tab px-5 py-2 rounded-full text-on-surface-variant hover:text-primary text-label-md font-label-md transition-all cursor-pointer" onclick="switchTab('desserts', this)">
+          Desserts
+        </button>
+      </div>
+    </div>
+
+    <!-- Tab 1: Coffee -->
+    <div class="menu-content grid grid-cols-1 md:grid-cols-2 gap-6" id="tab-coffee">
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <div class="flex items-center gap-2">
+            <h4 class="text-title-md font-title-md text-primary">Velvet Oat Flat White</h4>
+            <span class="px-2 py-0.5 rounded-full text-label-sm font-label-sm bg-secondary-container text-on-secondary-container">Barista Pick</span>
+          </div>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">Double shot house blend, Minor Figures steamed oat milk, silken micro-foam.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$5.25</span>
+          <button onclick="addToCart('Velvet Oat Flat White', 5.25, 'Coffee')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Kyoto Cold Drip</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">12-hour slow cold water extraction with subtle dark cherry and bourbon essence.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$6.00</span>
+          <button onclick="addToCart('Kyoto Cold Drip', 6.00, 'Coffee')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Cardamom Cortado</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">Equal parts espresso and lightly steamed whole milk dusted with freshly ground green cardamom.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$4.85</span>
+          <button onclick="addToCart('Cardamom Cortado', 4.85, 'Coffee')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Espresso Tonic with Rosemary</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">Fever-Tree Mediterranean tonic, light roast double shot, torched rosemary sprig.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$5.75</span>
+          <button onclick="addToCart('Espresso Tonic with Rosemary', 5.75, 'Coffee')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 2: Tea -->
+    <div class="menu-content hidden grid grid-cols-1 md:grid-cols-2 gap-6" id="tab-tea">
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Ceremonial Uji Matcha Latte</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">First-harvest Kyoto ceremonial matcha whisked with warm oat milk and organic agave.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$6.50</span>
+          <button onclick="addToCart('Ceremonial Uji Matcha Latte', 6.50, 'Tea')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Hojicha Roasted Green Tea</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">Nutty, deeply comforting charcoal-roasted tea leaves with low caffeine and caramel finish.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$5.00</span>
+          <button onclick="addToCart('Hojicha Roasted Green Tea', 5.00, 'Tea')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Wild Chamomile &amp; Lavender Blossom</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">Whole Egyptian chamomile heads blended with French blue lavender and fresh mint.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$4.75</span>
+          <button onclick="addToCart('Wild Chamomile & Lavender', 4.75, 'Tea')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Spiced Masala Micro-Chai</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">House slow-simmered Assam CTC tea with ginger root, cracked pepper, cinnamon, and whole milk.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$5.50</span>
+          <button onclick="addToCart('Spiced Masala Micro-Chai', 5.50, 'Tea')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 3: Snacks -->
+    <div class="menu-content hidden grid grid-cols-1 md:grid-cols-2 gap-6" id="tab-snacks">
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Whipped Ricotta Toast</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">Sourdough hearth toast, citrus blossom whipped ricotta, thyme honey, crushed toasted walnuts.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$8.75</span>
+          <button onclick="addToCart('Whipped Ricotta Toast', 8.75, 'Snacks')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Avocado Tartine with Za'atar</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">Crushed Hass avocado, pickled shallots, wild sumac, labneh, on country rye.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$9.25</span>
+          <button onclick="addToCart('Avocado Tartine', 9.25, 'Snacks')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Smoked Gouda &amp; Leek Quiche</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">Buttery shortcrust, caramelized baby leeks, farmhouse smoked gouda, organic eggs.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$7.50</span>
+          <button onclick="addToCart('Smoked Gouda & Leek Quiche', 7.50, 'Snacks')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Herb Sea Salt Soft Pretzel</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">Served warm with house whole grain mustard and whipped cultured brown butter.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$5.50</span>
+          <button onclick="addToCart('Herb Sea Salt Pretzel', 5.50, 'Snacks')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 4: Desserts -->
+    <div class="menu-content hidden grid grid-cols-1 md:grid-cols-2 gap-6" id="tab-desserts">
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Almond Frangipane Croissant</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">Twice-baked butter croissant, roasted almond cream, toasted flaked almonds.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$5.75</span>
+          <button onclick="addToCart('Almond Frangipane Croissant', 5.75, 'Desserts')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Espresso Tiramisu Jar</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">Savoiardi dipped in single origin espresso, mascarpone mousse, Valrhona cocoa dust.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$6.75</span>
+          <button onclick="addToCart('Espresso Tiramisu Jar', 6.75, 'Desserts')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Cinnamon Cardamom Brioche Knot</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">Swedish style knotted brioche enriched with freshly cracked cardamom seeds.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$4.50</span>
+          <button onclick="addToCart('Cardamom Brioche Knot', 4.50, 'Desserts')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-start">
+        <div class="space-y-1 pr-4">
+          <h4 class="text-title-md font-title-md text-primary">Dark Chocolate Olive Oil Brownie</h4>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">72% Ecuadorian dark chocolate, extra virgin olive oil, Maldon sea salt flakes.</p>
+        </div>
+        <div class="flex flex-col items-end gap-2 flex-shrink-0">
+          <span class="text-title-lg font-title-lg text-primary font-semibold">$5.00</span>
+          <button onclick="addToCart('Dark Chocolate Brownie', 5.00, 'Desserts')" class="px-3.5 py-1.5 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-sm font-semibold transition-all flex items-center gap-1 active:scale-95 shadow-xs">
+            <span class="material-symbols-outlined text-sm">add</span> Add
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Direct Menu Download / View Modal Trigger Button -->
+    <div class="mt-12 text-center">
+      <button onclick="openMenuModal()" class="inline-flex items-center gap-2 text-primary font-semibold hover:text-secondary border-b-2 border-primary/40 hover:border-secondary pb-1 transition-all text-body-md font-body-md cursor-pointer">
+        <span class="material-symbols-outlined text-lg" data-icon="download">menu_book</span>
+        <span>View &amp; Download Full Seasonal Menu (PDF)</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- 6. Customer Reviews / Testimonials -->
+  <section class="py-24 bg-surface-container-low border-t border-outline-variant/30">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+        <span class="text-label-md font-label-md text-secondary tracking-widest uppercase">Kind Words</span>
+        <h2 class="text-headline-lg font-headline-lg text-primary">Stories from Our Community</h2>
+        <p class="text-body-md font-body-md text-on-surface-variant">The regulars, the quiet readers, and the weekend brunch seekers.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Review 1 -->
+        <div class="p-8 rounded-2xl bg-surface-container-lowest border border-outline-variant/40 shadow-xs flex flex-col justify-between space-y-6">
+          <div class="space-y-4">
+            <div class="flex text-on-primary-fixed-variant gap-1">
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+            </div>
+            <p class="text-body-md font-body-md text-on-surface leading-relaxed italic">
+              "The oat flat white here ruined all other coffee for me in the best way possible. Their attention to roast profile and water chemistry is unmistakable. My morning sanctuary."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-outline-variant/20">
+            <div class="w-11 h-11 rounded-full bg-surface-container overflow-hidden">
+              <img class="w-full h-full object-cover" data-alt="Elena Vance" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80"/>
+            </div>
+            <div>
+              <div class="text-title-md font-title-md text-primary">Elena Vance</div>
+              <span class="text-label-sm font-label-sm text-secondary font-medium">Daily Regular</span>
+            </div>
+          </div>
+        </div>
+        <!-- Review 2 -->
+        <div class="p-8 rounded-2xl bg-surface-container-lowest border border-outline-variant/40 shadow-xs flex flex-col justify-between space-y-6">
+          <div class="space-y-4">
+            <div class="flex text-on-primary-fixed-variant gap-1">
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+            </div>
+            <p class="text-body-md font-body-md text-on-surface leading-relaxed italic">
+              "As a certified coffee grader, I rarely find places that nail both pour-over technique and bakery craft. The Basque cheesecake paired with their Geisha pour-over is unforgettable."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-outline-variant/20">
+            <div class="w-11 h-11 rounded-full bg-surface-container overflow-hidden">
+              <img class="w-full h-full object-cover" data-alt="Marcus Thorne" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"/>
+            </div>
+            <div>
+              <div class="text-title-md font-title-md text-primary">Marcus Thorne</div>
+              <span class="text-label-sm font-label-sm text-secondary font-medium">Coffee Connoisseur</span>
+            </div>
+          </div>
+        </div>
+        <!-- Review 3 -->
+        <div class="p-8 rounded-2xl bg-surface-container-lowest border border-outline-variant/40 shadow-xs flex flex-col justify-between space-y-6">
+          <div class="space-y-4">
+            <div class="flex text-on-primary-fixed-variant gap-1">
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="material-symbols-outlined text-lg text-amber-600" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+            </div>
+            <p class="text-body-md font-body-md text-on-surface leading-relaxed italic">
+              "The quiet music, natural timber tables, and gentle light make this my ultimate creative hideaway. You feel completely taken care of from the moment you walk through the door."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-outline-variant/20">
+            <div class="w-11 h-11 rounded-full bg-surface-container overflow-hidden">
+              <img class="w-full h-full object-cover" data-alt="Sophia Lin" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"/>
+            </div>
+            <div>
+              <div class="text-title-md font-title-md text-primary">Sophia Lin</div>
+              <span class="text-label-sm font-label-sm text-secondary font-medium">Remote Writer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Cafe Gallery -->
+  <section class="py-24 max-w-7xl mx-auto px-6" id="gallery">
+    <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+      <span class="text-label-md font-label-md text-secondary tracking-widest uppercase">Atmosphere &amp; Ritual</span>
+      <h2 class="text-headline-lg font-headline-lg text-primary">Moments at Artisan Roast</h2>
+      <p class="text-body-md font-body-md text-on-surface-variant">A glimpse inside our warm rooms, micro-bakery ovens, and sun-soaked corners.</p>
+    </div>
+    <!-- 6-Photo Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
+      <div class="group relative rounded-2xl overflow-hidden aspect-square border border-outline-variant/30 shadow-xs">
+        <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Latte Art Ritual" src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80"/>
+        <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+          <span class="text-surface text-label-md font-label-md bg-primary-container/80 backdrop-blur-sm px-3 py-1 rounded-full">Latte Art Ritual</span>
+        </div>
+      </div>
+      <div class="group relative rounded-2xl overflow-hidden aspect-square border border-outline-variant/30 shadow-xs">
+        <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="The Reading Nook" src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80"/>
+        <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+          <span class="text-surface text-label-md font-label-md bg-primary-container/80 backdrop-blur-sm px-3 py-1 rounded-full">The Reading Nook</span>
+        </div>
+      </div>
+      <div class="group relative rounded-2xl overflow-hidden aspect-square border border-outline-variant/30 shadow-xs">
+        <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Morning Hearth Bake" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"/>
+        <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+          <span class="text-surface text-label-md font-label-md bg-primary-container/80 backdrop-blur-sm px-3 py-1 rounded-full">Morning Hearth Bake</span>
+        </div>
+      </div>
+      <div class="group relative rounded-2xl overflow-hidden aspect-square border border-outline-variant/30 shadow-xs">
+        <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Slow Bar Experience" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80"/>
+        <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+          <span class="text-surface text-label-md font-label-md bg-primary-container/80 backdrop-blur-sm px-3 py-1 rounded-full">Slow Bar Experience</span>
+        </div>
+      </div>
+      <div class="group relative rounded-2xl overflow-hidden aspect-square border border-outline-variant/30 shadow-xs">
+        <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="The Garden Patio" src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=600&q=80"/>
+        <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+          <span class="text-surface text-label-md font-label-md bg-primary-container/80 backdrop-blur-sm px-3 py-1 rounded-full">The Garden Patio</span>
+        </div>
+      </div>
+      <div class="group relative rounded-2xl overflow-hidden aspect-square border border-outline-variant/30 shadow-xs">
+        <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Origin Roasts To-Go" src="https://images.unsplash.com/photo-1587734195503-904fca47e0e9?auto=format&fit=crop&w=600&q=80"/>
+        <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+          <span class="text-surface text-label-md font-label-md bg-primary-container/80 backdrop-blur-sm px-3 py-1 rounded-full">Origin Roasts To-Go</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Contact, Location & Reservation Section -->
+  <section class="py-24 bg-surface-container border-t border-outline-variant/30" id="reservation">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+        <!-- Column 1: Visit & Contact Details -->
+        <div class="lg:col-span-5 space-y-8" id="contact">
+          <div>
+            <span class="text-label-md font-label-md text-secondary tracking-widest uppercase">Plan Your Visit</span>
+            <h2 class="text-headline-lg font-headline-lg text-primary mt-1">Visit &amp; Connect</h2>
+            <p class="text-body-md font-body-md text-on-surface-variant mt-2">
+              We welcome walk-ins throughout the day. Table reservations are recommended for weekend mornings and special cupping sessions.
+            </p>
+          </div>
+          <div class="space-y-4">
+            <!-- Address Card with Functional Copy Button -->
+            <div class="p-5 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex justify-between items-center shadow-xs">
+              <div class="flex items-start gap-3">
+                <span class="material-symbols-outlined text-secondary mt-0.5" data-icon="pin_drop">pin_drop</span>
+                <div>
+                  <div class="text-title-md font-title-md text-primary">Location</div>
+                  <div id="cafe-address-text" class="text-body-sm font-body-sm text-on-surface-variant">420 Heritage Lane, Old Quarter, Cityville</div>
+                </div>
+              </div>
+              <button onclick="copyAddress(this)" class="p-2.5 rounded-full hover:bg-surface-container text-on-surface-variant hover:text-primary transition-all active:scale-90" title="Copy Address">
+                <span class="material-symbols-outlined text-lg" data-icon="content_copy">content_copy</span>
+              </button>
+            </div>
+            <!-- Hours Card -->
+            <div class="p-5 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex items-start gap-3 shadow-xs">
+              <span class="material-symbols-outlined text-secondary mt-0.5" data-icon="schedule">schedule</span>
+              <div>
+                <div class="text-title-md font-title-md text-primary">Opening Hours</div>
+                <div class="text-body-sm font-body-sm text-on-surface-variant">Monday – Friday: 7:00 AM – 8:00 PM</div>
+                <div class="text-body-sm font-body-sm text-on-surface-variant">Saturday – Sunday: 8:00 AM – 9:00 PM</div>
+              </div>
+            </div>
+            <!-- Contact Numbers Card -->
+            <div class="p-5 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 flex items-start gap-3 shadow-xs">
+              <span class="material-symbols-outlined text-secondary mt-0.5" data-icon="call">call</span>
+              <div>
+                <div class="text-title-md font-title-md text-primary">Inquiries &amp; Private Events</div>
+                <div class="text-body-sm font-body-sm text-on-surface-variant">+1 (555) 234-8971</div>
+                <div class="text-body-sm font-body-sm text-on-surface-variant">hello@artisanroast.com</div>
+              </div>
+            </div>
+          </div>
+          <!-- Clickable Directions Card -->
+          <div class="relative h-48 rounded-2xl overflow-hidden border border-outline-variant/40 bg-surface-container-low shadow-sm group">
+            <img class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" data-alt="Map location" src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=600&q=80"/>
+            <a href="https://maps.google.com/?q=Artisan+Roast+Specialty+Cafe" target="_blank" rel="noopener noreferrer" class="absolute inset-0 bg-primary/15 hover:bg-primary/25 transition-all flex items-center justify-center cursor-pointer">
+              <div class="px-5 py-2.5 bg-surface-container-lowest/95 backdrop-blur-sm rounded-full border border-outline-variant/40 text-label-md font-label-md text-primary flex items-center gap-2 shadow-md group-hover:scale-105 transition-all">
+                <span class="material-symbols-outlined text-secondary text-base" data-icon="near_me">near_me</span>
+                <span>Get Driving Directions</span>
+                <span class="material-symbols-outlined text-xs text-on-surface-variant">open_in_new</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Interactive Reservation Form -->
+        <div class="lg:col-span-7">
+          <div id="reservation-card" class="p-8 lg:p-10 rounded-2xl bg-surface-container-lowest border border-outline-variant/40 shadow-sm space-y-6 transition-all duration-300">
+            <div>
+              <span class="text-label-sm font-label-sm text-secondary uppercase tracking-wider font-semibold">Table Bookings</span>
+              <h3 class="text-headline-md font-headline-md text-primary mt-1">Reserve a Table</h3>
+              <p class="text-body-sm font-body-sm text-on-surface-variant">Reserve your corner for morning gatherings, tastings, or quiet meetings.</p>
+            </div>
+            <form id="reservation-form" class="space-y-4" onsubmit="handleReservation(event)">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-label-md font-label-md text-on-surface mb-1">Full Name</label>
+                  <input id="res-name-input" class="w-full px-4 py-2.5 rounded-xl border border-outline-variant bg-surface focus:outline-none focus:border-primary text-body-md font-body-md transition-colors" placeholder="e.g. Evelyn Reed" required="" type="text"/>
+                </div>
+                <div>
+                  <label class="block text-label-md font-label-md text-on-surface mb-1">Phone Number or Email</label>
+                  <input id="res-contact-input" class="w-full px-4 py-2.5 rounded-xl border border-outline-variant bg-surface focus:outline-none focus:border-primary text-body-md font-body-md transition-colors" placeholder="+1 (555) 000-0000" required="" type="text"/>
+                </div>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                  <label class="block text-label-md font-label-md text-on-surface mb-1">Date</label>
+                  <input id="res-date-input" class="w-full px-4 py-2.5 rounded-xl border border-outline-variant bg-surface focus:outline-none focus:border-primary text-body-md font-body-md transition-colors" required="" type="date"/>
+                </div>
+                <div>
+                  <label class="block text-label-md font-label-md text-on-surface mb-1">Time</label>
+                  <select id="res-time-input" class="w-full px-4 py-2.5 rounded-xl border border-outline-variant bg-surface focus:outline-none focus:border-primary text-body-md font-body-md transition-colors">
+                    <option>8:00 AM</option>
+                    <option>9:30 AM</option>
+                    <option>11:00 AM</option>
+                    <option>1:00 PM</option>
+                    <option>3:30 PM</option>
+                    <option>5:30 PM</option>
+                    <option>7:00 PM</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block text-label-md font-label-md text-on-surface mb-1">Guests</label>
+                  <select id="res-guests-input" class="w-full px-4 py-2.5 rounded-xl border border-outline-variant bg-surface focus:outline-none focus:border-primary text-body-md font-body-md transition-colors">
+                    <option>1 Guest</option>
+                    <option selected="">2 Guests</option>
+                    <option>3-4 Guests</option>
+                    <option>5+ Guests (Tasting Table)</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <label class="block text-label-md font-label-md text-on-surface mb-1">Special Requests or Dietary Preferences</label>
+                <textarea id="res-notes-input" class="w-full px-4 py-2.5 rounded-xl border border-outline-variant bg-surface focus:outline-none focus:border-primary text-body-md font-body-md transition-colors" placeholder="Window seating, celebration cake, oat milk preference..." rows="3"></textarea>
+              </div>
+              <div class="pt-2">
+                <button class="w-full py-3.5 px-6 rounded-full bg-primary-container text-surface text-label-lg font-label-lg hover:bg-primary transition-all duration-200 shadow-sm flex items-center justify-center gap-2 active:scale-98 cursor-pointer" type="submit">
+                  <span>Confirm Reservation</span>
+                  <span class="material-symbols-outlined text-lg" data-icon="check_circle">check_circle</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Footer -->
+  <footer class="w-full bg-surface-container-high dark:bg-surface-container-low border-t border-outline-variant/40 dark:border-outline-variant/20 transition-all duration-200 ease-in-out">
+    <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 pb-8 border-b border-outline-variant/30">
+        <!-- Cafe Branding & Mission Statement -->
+        <div class="md:col-span-5 space-y-4">
+          <div class="flex items-center gap-2.5 text-headline-md font-headline-md font-semibold text-primary dark:text-primary-fixed">
+            <span class="w-8 h-8 rounded-full bg-primary-container text-surface flex items-center justify-center">
+              <span class="material-symbols-outlined text-lg" data-icon="coffee" style="font-variation-settings: 'FILL' 1;">coffee</span>
+            </span>
+            <span>Artisan Roast</span>
+          </div>
+          <p class="text-body-sm font-body-sm text-on-surface-variant max-w-sm leading-relaxed">
+            Crafting quiet moments through ethically sourced single origin coffees and hearth-baked morning pastries. Dedicated to intentional community living.
+          </p>
+          <!-- Social Icons -->
+          <div class="flex items-center gap-4 text-on-surface-variant">
+            <a onclick="showToast('Follow us on Instagram @artisanroast!')" class="w-9 h-9 rounded-full bg-surface hover:text-primary flex items-center justify-center border border-outline-variant/40 transition-colors cursor-pointer" title="Instagram">
+              <span class="material-symbols-outlined text-lg" data-icon="photo_camera">photo_camera</span>
+            </a>
+            <a onclick="showToast('Browse our inspirations on Pinterest!')" class="w-9 h-9 rounded-full bg-surface hover:text-primary flex items-center justify-center border border-outline-variant/40 transition-colors cursor-pointer" title="Pinterest">
+              <span class="material-symbols-outlined text-lg" data-icon="push_pin">push_pin</span>
+            </a>
+            <a onclick="showToast('Connect with our community on Facebook!')" class="w-9 h-9 rounded-full bg-surface hover:text-primary flex items-center justify-center border border-outline-variant/40 transition-colors cursor-pointer" title="Facebook">
+              <span class="material-symbols-outlined text-lg" data-icon="public">public</span>
+            </a>
+          </div>
+        </div>
+        <!-- Quick Links -->
+        <div class="md:col-span-3 space-y-3">
+          <div class="text-title-md font-title-md text-primary font-semibold">Explore</div>
+          <ul class="space-y-2 text-body-sm font-body-sm">
+            <li><a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#about">Coffee Sourcing</a></li>
+            <li><a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#reservation">Visit Us</a></li>
+            <li><a onclick="showToast('Wholesale catalog inquiries: wholesale@artisanroast.com')" class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200 cursor-pointer">Wholesale Inquiries</a></li>
+            <li><a onclick="showToast('Privacy Policy: We protect customer data with high integrity.')" class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200 cursor-pointer">Privacy Policy</a></li>
+            <li><a onclick="showToast('Terms of Service: Baked fresh with care.')" class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200 cursor-pointer">Terms of Service</a></li>
+          </ul>
+        </div>
+        <!-- Newsletter Subscription Input -->
+        <div class="md:col-span-4 space-y-3">
+          <div class="text-title-md font-title-md text-primary font-semibold">Morning Brew Letter</div>
+          <p class="text-body-sm font-body-sm text-on-surface-variant">
+            Receive seasonal roast notes, weekend pastry specials, and coffee recipes directly to your inbox.
+          </p>
+          <form class="flex gap-2" onsubmit="event.preventDefault(); showToast('Subscribed! Welcome to the Morning Brew Letter.'); this.reset();">
+            <input class="flex-1 px-4 py-2 rounded-xl bg-surface border border-outline-variant text-body-sm font-body-sm focus:outline-none focus:border-primary" placeholder="your.email@example.com" required="" type="email"/>
+            <button class="px-5 py-2 rounded-xl bg-primary-container text-surface text-label-md font-label-md hover:bg-primary transition-colors cursor-pointer" type="submit">
+              Join
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- Copyright Notice -->
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-body-sm font-body-sm text-on-surface-variant">
+        <div>© 2024 Artisan Roast Specialty Cafe. All rights reserved. Crafted with slow living and warm moments.</div>
+        <div class="flex items-center gap-1 text-label-sm font-label-sm text-secondary">
+          <span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+          <span>Roasting Daily in Small Batches</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== INTERACTIVE MODALS & CART DRAWER ==================== -->
+
+  <!-- Cart Backdrop Overlay -->
+  <div id="cart-backdrop" onclick="closeCart()" class="fixed inset-0 bg-primary/50 backdrop-blur-xs z-50 hidden transition-opacity"></div>
+
+  <!-- Cart Slide-in Drawer -->
+  <aside id="cart-drawer" class="fixed inset-y-0 right-0 max-w-md w-full bg-surface-container-lowest z-50 shadow-2xl p-6 transform transition-transform duration-300 translate-x-full flex flex-col justify-between">
+    <div>
+      <!-- Drawer Header -->
+      <div class="flex items-center justify-between pb-4 border-b border-outline-variant/30">
+        <div class="flex items-center gap-2.5">
+          <span class="material-symbols-outlined text-secondary text-2xl">shopping_bag</span>
+          <h3 class="text-headline-sm font-headline-sm text-primary">Your Order Cart</h3>
+        </div>
+        <button onclick="closeCart()" class="p-2 rounded-full hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Close Cart">
+          <span class="material-symbols-outlined text-2xl">close</span>
+        </button>
+      </div>
+
+      <!-- Empty State -->
+      <div id="cart-empty" class="py-16 text-center space-y-3">
+        <span class="material-symbols-outlined text-outline-variant text-5xl">shopping_cart</span>
+        <div class="text-title-md font-title-md text-primary">Your cart is empty</div>
+        <p class="text-body-sm font-body-sm text-on-surface-variant max-w-xs mx-auto">Explore our daily coffee roast and fresh bakery items to add to your order.</p>
+        <button onclick="closeCart(); scrollToMenu();" class="mt-2 px-6 py-2 rounded-full bg-surface-container hover:bg-primary-container hover:text-surface text-primary text-label-md font-semibold transition-all">
+          Browse Menu
+        </button>
+      </div>
+
+      <!-- Cart Items List -->
+      <div id="cart-items-list" class="space-y-3 py-4 max-h-[50vh] overflow-y-auto custom-scroll"></div>
+    </div>
+
+    <!-- Cart Footer & Checkout -->
+    <div id="cart-footer" class="border-t border-outline-variant/30 pt-4 space-y-4 hidden">
+      <div class="space-y-1.5 text-body-sm font-body-sm text-on-surface-variant">
+        <div class="flex justify-between">
+          <span>Subtotal</span>
+          <span id="cart-subtotal" class="font-semibold text-primary">$0.00</span>
+        </div>
+        <div class="flex justify-between">
+          <span>Estimated Tax (8%)</span>
+          <span id="cart-tax" class="font-semibold text-primary">$0.00</span>
+        </div>
+        <div class="flex justify-between text-title-lg font-title-lg text-primary pt-2 border-t border-outline-variant/20">
+          <span>Total</span>
+          <span id="cart-total" class="font-bold text-primary">$0.00</span>
+        </div>
+      </div>
+      <button onclick="checkoutOrder()" class="w-full py-3.5 px-6 rounded-full bg-primary-container text-surface text-label-lg font-label-lg hover:bg-primary shadow-md transition-all flex items-center justify-center gap-2 active:scale-98">
+        <span>Proceed to Checkout</span>
+        <span class="material-symbols-outlined text-lg">arrow_forward</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Reservation Success Modal -->
+  <div id="reservation-success-modal" class="fixed inset-0 bg-primary/60 backdrop-blur-xs z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-surface-container-lowest max-w-md w-full rounded-2xl p-8 border border-outline-variant/40 shadow-2xl space-y-5 text-center">
+      <div class="w-16 h-16 rounded-full bg-secondary-container text-secondary flex items-center justify-center mx-auto">
+        <span class="material-symbols-outlined text-3xl">check_circle</span>
+      </div>
+      <div>
+        <h3 class="text-headline-md font-headline-md text-primary">Table Reserved!</h3>
+        <p class="text-body-sm font-body-sm text-on-surface-variant mt-1">We look forward to hosting you at Artisan Roast.</p>
+      </div>
+      <div class="p-4 rounded-xl bg-surface-container border border-outline-variant/30 text-left space-y-2">
+        <div class="flex justify-between text-body-sm">
+          <span class="text-on-surface-variant">Guest Name:</span>
+          <span id="res-modal-name" class="font-semibold text-primary"></span>
+        </div>
+        <div class="flex justify-between text-body-sm">
+          <span class="text-on-surface-variant">Reservation:</span>
+          <span id="res-modal-details" class="font-semibold text-primary"></span>
+        </div>
+        <div class="flex justify-between text-body-sm">
+          <span class="text-on-surface-variant">Booking Code:</span>
+          <span id="res-modal-code" class="font-mono font-bold text-secondary"></span>
+        </div>
+      </div>
+      <button onclick="document.getElementById('reservation-success-modal').classList.add('hidden')" class="w-full py-3 rounded-full bg-primary-container text-surface font-semibold hover:bg-primary transition-all">
+        Wonderful, Thank You!
+      </button>
+    </div>
+  </div>
+
+  <!-- Order Success Modal -->
+  <div id="order-success-modal" class="fixed inset-0 bg-primary/60 backdrop-blur-xs z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-surface-container-lowest max-w-md w-full rounded-2xl p-8 border border-outline-variant/40 shadow-2xl space-y-5 text-center">
+      <div class="w-16 h-16 rounded-full bg-secondary-container text-secondary flex items-center justify-center mx-auto">
+        <span class="material-symbols-outlined text-3xl">local_cafe</span>
+      </div>
+      <div>
+        <h3 class="text-headline-md font-headline-md text-primary">Order Placed!</h3>
+        <p class="text-body-sm font-body-sm text-on-surface-variant mt-1">Our baristas are preparing your handcrafted order now.</p>
+      </div>
+      <div class="p-4 rounded-xl bg-surface-container border border-outline-variant/30 text-left space-y-2">
+        <div class="flex justify-between text-body-sm">
+          <span class="text-on-surface-variant">Order Number:</span>
+          <span id="order-modal-id" class="font-mono font-bold text-primary"></span>
+        </div>
+        <div class="flex justify-between text-body-sm">
+          <span class="text-on-surface-variant">Total Paid:</span>
+          <span id="order-modal-total" class="font-semibold text-primary"></span>
+        </div>
+        <div class="flex justify-between text-body-sm">
+          <span class="text-on-surface-variant">Estimated Ready Time:</span>
+          <span class="font-semibold text-secondary">10 – 15 Minutes</span>
+        </div>
+      </div>
+      <button onclick="document.getElementById('order-success-modal').classList.add('hidden')" class="w-full py-3 rounded-full bg-primary-container text-surface font-semibold hover:bg-primary transition-all">
+        Got it!
+      </button>
+    </div>
+  </div>
+
+  <!-- Seasonal Menu Modal -->
+  <div id="menu-modal" class="fixed inset-0 bg-primary/60 backdrop-blur-xs z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-surface-container-lowest max-w-2xl w-full rounded-2xl p-8 border border-outline-variant/40 shadow-2xl space-y-6 max-h-[85vh] flex flex-col justify-between">
+      <div class="flex items-center justify-between pb-3 border-b border-outline-variant/30">
+        <div class="flex items-center gap-2">
+          <span class="material-symbols-outlined text-secondary text-2xl">restaurant_menu</span>
+          <h3 class="text-headline-sm font-headline-sm text-primary">Seasonal Menu 2024</h3>
+        </div>
+        <button onclick="closeMenuModal()" class="p-1.5 rounded-full hover:bg-surface-container text-on-surface-variant hover:text-primary">
+          <span class="material-symbols-outlined text-2xl">close</span>
+        </button>
+      </div>
+
+      <div class="overflow-y-auto custom-scroll space-y-6 pr-2">
+        <div>
+          <h4 class="text-title-md font-semibold text-primary mb-2 text-secondary uppercase tracking-wider text-xs">Specialty Coffee</h4>
+          <div class="space-y-2 text-body-sm">
+            <div class="flex justify-between"><span>Artisanal Pour-Over (Colombia Geisha)</span><span class="font-semibold">$4.75</span></div>
+            <div class="flex justify-between"><span>Velvet Oat Flat White</span><span class="font-semibold">$5.25</span></div>
+            <div class="flex justify-between"><span>Kyoto Cold Drip (12h extraction)</span><span class="font-semibold">$6.00</span></div>
+            <div class="flex justify-between"><span>Cardamom Cortado</span><span class="font-semibold">$4.85</span></div>
+            <div class="flex justify-between"><span>Espresso Tonic with Torched Rosemary</span><span class="font-semibold">$5.75</span></div>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-title-md font-semibold text-primary mb-2 text-secondary uppercase tracking-wider text-xs">Organic Micro-Bakery</h4>
+          <div class="space-y-2 text-body-sm">
+            <div class="flex justify-between"><span>Basque Burnt Cheesecake</span><span class="font-semibold">$6.50</span></div>
+            <div class="flex justify-between"><span>Truffle &amp; Provolone Focaccia</span><span class="font-semibold">$9.50</span></div>
+            <div class="flex justify-between"><span>Pistachio &amp; Raspberry Tart</span><span class="font-semibold">$7.00</span></div>
+            <div class="flex justify-between"><span>Almond Frangipane Croissant</span><span class="font-semibold">$5.75</span></div>
+            <div class="flex justify-between"><span>Espresso Tiramisu Jar</span><span class="font-semibold">$6.75</span></div>
+            <div class="flex justify-between"><span>Cinnamon Cardamom Brioche Knot</span><span class="font-semibold">$4.50</span></div>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-title-md font-semibold text-primary mb-2 text-secondary uppercase tracking-wider text-xs">Artisan Teas &amp; Savory</h4>
+          <div class="space-y-2 text-body-sm">
+            <div class="flex justify-between"><span>Ceremonial Uji Matcha Latte</span><span class="font-semibold">$6.50</span></div>
+            <div class="flex justify-between"><span>Hojicha Charcoal Roasted Tea</span><span class="font-semibold">$5.00</span></div>
+            <div class="flex justify-between"><span>Whipped Ricotta Sourdough Toast</span><span class="font-semibold">$8.75</span></div>
+            <div class="flex justify-between"><span>Smoked Gouda &amp; Leek Quiche</span><span class="font-semibold">$7.50</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-4 border-t border-outline-variant/30 flex gap-3">
+        <button onclick="window.print()" class="flex-1 py-2.5 rounded-full bg-primary-container text-surface font-semibold hover:bg-primary transition-all flex items-center justify-center gap-2">
+          <span class="material-symbols-outlined text-lg">print</span>
+          <span>Print / Save as PDF</span>
+        </button>
+        <button onclick="closeMenuModal()" class="px-6 py-2.5 rounded-full bg-surface-container text-primary font-semibold hover:bg-surface-container-high transition-all">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Cart Button (always visible on screen bottom-right) -->
+  <button id="floating-cart" onclick="openCart()" class="fixed bottom-6 right-6 z-40 bg-primary-container hover:bg-primary text-surface p-4 rounded-full shadow-2xl transition-all hover:scale-105 active:scale-95 flex items-center gap-2.5 border border-primary/20" title="Open Order Cart">
+    <span class="material-symbols-outlined text-2xl">local_mall</span>
+    <span class="font-bold text-sm hidden sm:inline">Your Order</span>
+    <span id="cart-badge-float" class="cart-badge bg-secondary text-surface text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center hidden">0</span>
+  </button>
+
+  <!-- ==================== JAVASCRIPT LOGIC ==================== -->
+  <script>
+    // Tab switching
+    function switchTab(tabName, clickedBtn) {
+      const contents = document.querySelectorAll('.menu-content');
+      contents.forEach(el => el.classList.add('hidden'));
+
+      const buttons = document.querySelectorAll('.menu-tab');
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-primary-container', 'text-surface', 'shadow-xs');
+        btn.classList.add('text-on-surface-variant');
+      });
+
+      const target = document.getElementById('tab-' + tabName);
+      if (target) {
+        target.classList.remove('hidden');
+      }
+
+      clickedBtn.classList.remove('text-on-surface-variant');
+      clickedBtn.classList.add('bg-primary-container', 'text-surface', 'shadow-xs');
+    }
+
+    // Mobile nav toggle
+    function toggleMobileMenu() {
+      const mobileNav = document.getElementById('mobile-nav');
+      const icon = document.getElementById('mobile-menu-icon');
+      if (mobileNav.classList.contains('hidden')) {
+        mobileNav.classList.remove('hidden');
+        icon.textContent = 'close';
+      } else {
+        mobileNav.classList.add('hidden');
+        icon.textContent = 'menu';
+      }
+    }
+
+    // Smooth scrolls
+    function scrollToReservation() {
+      const el = document.getElementById('reservation');
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+        setTimeout(() => {
+          const card = document.getElementById('reservation-card');
+          if (card) {
+            card.classList.add('ring-4', 'ring-secondary/40');
+            setTimeout(() => card.classList.remove('ring-4', 'ring-secondary/40'), 1500);
+          }
+          const input = document.getElementById('res-name-input');
+          if (input) input.focus();
+        }, 500);
+      }
+    }
+
+    function scrollToMenu() {
+      const el = document.getElementById('menu');
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    function orderNowAction() {
+      if (cart.length > 0) {
+        openCart();
+      } else {
+        scrollToMenu();
+        showToast('Choose any specialty coffee or pastry below to add to your order!');
+      }
+    }
+
+    // Cart Management
+    let cart = [];
+
+    function addToCart(name, price, category) {
+      const existing = cart.find(i => i.name === name);
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        cart.push({ name, price, category, qty: 1 });
+      }
+      updateCartUI();
+      showToast(`Added "${name}" to your order!`, 'success');
+
+      // Bounce nav button
+      const navBtn = document.getElementById('cart-btn');
+      if (navBtn) {
+        navBtn.classList.add('scale-115');
+        setTimeout(() => navBtn.classList.remove('scale-115'), 200);
+      }
+    }
+
+    function updateCartUI() {
+      const totalQty = cart.reduce((sum, item) => sum + item.qty, 0);
+      const badges = document.querySelectorAll('.cart-badge');
+      badges.forEach(b => {
+        b.textContent = totalQty;
+        if (totalQty > 0) {
+          b.classList.remove('hidden');
+        } else {
+          b.classList.add('hidden');
+        }
+      });
+
+      const list = document.getElementById('cart-items-list');
+      const empty = document.getElementById('cart-empty');
+      const footer = document.getElementById('cart-footer');
+
+      if (!list) return;
+
+      if (cart.length === 0) {
+        list.innerHTML = '';
+        empty.classList.remove('hidden');
+        footer.classList.add('hidden');
+        return;
+      }
+
+      empty.classList.add('hidden');
+      footer.classList.remove('hidden');
+
+      let subtotal = 0;
+      list.innerHTML = cart.map((item, index) => {
+        const itemTotal = item.price * item.qty;
+        subtotal += itemTotal;
+        return `
+          <div class="p-3.5 rounded-xl bg-surface-container border border-outline-variant/30 flex items-center justify-between gap-3">
+            <div class="flex-1">
+              <div class="font-semibold text-primary text-title-md leading-snug">${item.name}</div>
+              <div class="text-xs text-on-surface-variant">${item.category} • $${item.price.toFixed(2)} each</div>
+              <div class="text-sm font-bold text-primary mt-1">$${itemTotal.toFixed(2)}</div>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <button onclick="changeQty(${index}, -1)" class="w-7 h-7 rounded-full bg-surface-container-highest hover:bg-outline-variant text-primary flex items-center justify-center font-bold text-sm cursor-pointer">−</button>
+              <span class="w-6 text-center font-semibold text-sm">${item.qty}</span>
+              <button onclick="changeQty(${index}, 1)" class="w-7 h-7 rounded-full bg-surface-container-highest hover:bg-outline-variant text-primary flex items-center justify-center font-bold text-sm cursor-pointer">+</button>
+              <button onclick="removeFromCart(${index})" class="w-7 h-7 rounded-full hover:bg-error-container text-outline hover:text-error flex items-center justify-center ml-1 cursor-pointer" title="Remove item">
+                <span class="material-symbols-outlined text-base">delete</span>
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      const tax = subtotal * 0.08;
+      const total = subtotal + tax;
+
+      document.getElementById('cart-subtotal').textContent = `$${subtotal.toFixed(2)}`;
+      document.getElementById('cart-tax').textContent = `$${tax.toFixed(2)}`;
+      document.getElementById('cart-total').textContent = `$${total.toFixed(2)}`;
+    }
+
+    function changeQty(index, change) {
+      if (!cart[index]) return;
+      cart[index].qty += change;
+      if (cart[index].qty <= 0) {
+        cart.splice(index, 1);
+      }
+      updateCartUI();
+    }
+
+    function removeFromCart(index) {
+      if (!cart[index]) return;
+      const removed = cart[index].name;
+      cart.splice(index, 1);
+      updateCartUI();
+      showToast(`Removed "${removed}" from order.`);
+    }
+
+    function openCart() {
+      document.getElementById('cart-drawer').classList.remove('translate-x-full');
+      document.getElementById('cart-backdrop').classList.remove('hidden');
+    }
+
+    function closeCart() {
+      document.getElementById('cart-drawer').classList.add('translate-x-full');
+      document.getElementById('cart-backdrop').classList.add('hidden');
+    }
+
+    function checkoutOrder() {
+      if (cart.length === 0) return;
+      const total = document.getElementById('cart-total').textContent;
+      const orderId = 'AR-' + Math.floor(100000 + Math.random() * 900000);
+
+      closeCart();
+
+      document.getElementById('order-modal-id').textContent = orderId;
+      document.getElementById('order-modal-total').textContent = total;
+      document.getElementById('order-success-modal').classList.remove('hidden');
+
+      cart = [];
+      updateCartUI();
+    }
+
+    // Reservation handler
+    function handleReservation(event) {
+      event.preventDefault();
+      const name = document.getElementById('res-name-input').value;
+      const date = document.getElementById('res-date-input').value;
+      const time = document.getElementById('res-time-input').value;
+      const guests = document.getElementById('res-guests-input').value;
+
+      const code = 'TBL-' + Math.floor(1000 + Math.random() * 9000);
+
+      document.getElementById('res-modal-name').textContent = name;
+      document.getElementById('res-modal-details').textContent = `${guests} • ${date} at ${time}`;
+      document.getElementById('res-modal-code').textContent = code;
+      document.getElementById('reservation-success-modal').classList.remove('hidden');
+
+      document.getElementById('reservation-form').reset();
+    }
+
+    // Menu PDF modal
+    function openMenuModal() {
+      document.getElementById('menu-modal').classList.remove('hidden');
+    }
+
+    function closeMenuModal() {
+      document.getElementById('menu-modal').classList.add('hidden');
+    }
+
+    // Copy Address with feedback
+    function copyAddress(btn) {
+      const address = '420 Heritage Lane, Old Quarter, Cityville';
+      navigator.clipboard.writeText(address).then(() => {
+        showToast('✓ Address copied to clipboard!');
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (icon) {
+          icon.textContent = 'check';
+          setTimeout(() => icon.textContent = 'content_copy', 2000);
+        }
+      }).catch(() => {
+        showToast('Address: ' + address);
+      });
+    }
+
+    // Toast notification
+    function showToast(message) {
+      const container = document.getElementById('toast-container');
+      if (!container) return;
+
+      const toast = document.createElement('div');
+      toast.className = 'px-4 py-3 rounded-xl bg-primary text-surface text-label-md shadow-xl flex items-center gap-3 transform transition-all duration-300 translate-y-2 opacity-0 max-w-sm';
+      toast.innerHTML = `
+        <span class="material-symbols-outlined text-secondary text-lg">check_circle</span>
+        <span class="font-medium">${message}</span>
+      `;
+      container.appendChild(toast);
+
+      requestAnimationFrame(() => {
+        toast.classList.remove('translate-y-2', 'opacity-0');
+      });
+
+      setTimeout(() => {
+        toast.classList.add('opacity-0', '-translate-y-2');
+        setTimeout(() => toast.remove(), 300);
+      }, 3200);
+    }
+
+    // Set default date for reservation input (today)
+    document.addEventListener('DOMContentLoaded', () => {
+      const dateInput = document.getElementById('res-date-input');
+      if (dateInput) {
+        const today = new Date().toISOString().split('T')[0];
+        dateInput.value = today;
+        dateInput.min = today;
+      }
+    });
+  </script>
+</body>
+</html>
